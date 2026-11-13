@@ -1,6 +1,7 @@
 /* Mobile */
 
 @media(max-width:767px) {
+
     .navbar-inverse .navbar-nav>li>a {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -15,6 +16,15 @@
     .navbar-fixed-bottom .navbar-collapse {
         max-height: none;
     }
+
+    #scroll-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
 }
 
 /* Small Screens */
