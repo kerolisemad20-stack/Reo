@@ -1,7 +1,6 @@
 body {
     padding-top: 70px;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 h1.h2.h3.h4.h5.lead {
@@ -598,6 +597,7 @@ h1.h2.h3.h4.h5.lead {
     bottom: 10px;
     z-index: 9999;
     display: none;
+    cursor: pointer;
 }
 
 #scroll-top:hover {
