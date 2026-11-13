@@ -6,15 +6,15 @@ $(document).ready(function () {
     $('.carousel').carousel({
         interval: 5000
     });
-    $("html").niceScroll({
-        scrollspeed: 40,
-        mousescrollstep: 27,
-        touchbehavior: false,
-        emulatetouch: false,
-        autohidemode: false,
-        cursordragontouch: true,
-        cursorwidth: "8px"
-    });
+    // $("html").niceScroll({
+    //     scrollspeed: 40,
+    //     mousescrollstep: 27,
+    //     touchbehavior: false,
+    //     emulatetouch: false,
+    //     autohidemode: false,
+    //     cursordragontouch: true,
+    //     cursorwidth: "8px"
+    // });
     // Show Color Option When Click On The Gear
     $(".gear-check").click(function () {
         $(".color-option").fadeToggle();
