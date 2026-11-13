@@ -8,9 +8,13 @@ $(document).ready(function () {
     });
     $("html").niceScroll({
         mousescrollstep: 60,
+        scrollspeed: 40,
         smoothscroll: true,
-        touchbehavior: false,
-        cursorwidth: "8px"
+        touchbehavior: true,
+        cursorwidth: "8px",
+        cursoropacitymin: 0.5,
+        cursoropacitymax: 1,
+        emulatetouch: true
     });
     // Show Color Option When Click On The Gear
     $(".gear-check").click(function () {
