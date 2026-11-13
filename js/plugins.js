@@ -7,14 +7,13 @@ $(document).ready(function () {
         interval: 5000
     });
     $("html").niceScroll({
-        mousescrollstep: 60,
         scrollspeed: 40,
-        smoothscroll: true,
-        touchbehavior: true,
-        cursorwidth: "8px",
-        cursoropacitymin: 0.5,
-        cursoropacitymax: 1,
-        emulatetouch: true
+        mousescrollstep: 27,
+        touchbehavior: false,
+        emulatetouch: false,
+        autohidemode: false,
+        cursordragontouch: true,
+        cursorwidth: "8px"
     });
     // Show Color Option When Click On The Gear
     $(".gear-check").click(function () {
