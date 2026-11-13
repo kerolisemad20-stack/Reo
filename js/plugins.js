@@ -6,7 +6,12 @@ $(document).ready(function () {
     $('.carousel').carousel({
         interval: 5000
     });
-    $("html").niceScroll();
+    $("html").niceScroll({
+        mousescrollstep: 60,
+        smoothscroll: true,
+        touchbehavior: false,
+        cursorwidth: "8px"
+    });
     // Show Color Option When Click On The Gear
     $(".gear-check").click(function () {
         $(".color-option").fadeToggle();
